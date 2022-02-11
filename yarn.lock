@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@angular/core@^8.2.5":
+  "integrity" "sha512-zeePkigi+hPh3rN7yoNENG/YUBUsIvUXdxx+AZq+QPaFeKEA2FBSrKn36ojHFrdJUjKzl0lPMEiGC2b6a6bo6g=="
+  "resolved" "https://registry.npmjs.org/@angular/core/-/core-8.2.14.tgz"
+  "version" "8.2.14"
+  dependencies:
+    "tslib" "^1.9.0"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.16.0", "@babel/code-frame@^7.16.7":
   "integrity" "sha512-iAXqUn8IIeBTNd72xsFlgaXHkMBMt6y4HJp1tIaK465CWLT/fG1aqB7ykr95gHHmlBdGbFeWWfyB4NJJ0nmeIg=="
   "resolved" "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.16.7.tgz"
@@ -1827,6 +1834,11 @@
     "json-schema-traverse" "^0.4.1"
     "uri-js" "^4.2.2"
 
+"angular-redhawk@*":
+  "integrity" "sha512-XK2bQdxi83GI6u2cDm4jqAowyUYBjEKE+vP9e/LG/dRf5Ryf8p9Djiz++evLwi6Gx/d224u+2kXH8kobNtFCfQ=="
+  "resolved" "https://registry.npmjs.org/angular-redhawk/-/angular-redhawk-0.5.1.tgz"
+  "version" "0.5.1"
+
 "anser@^1.4.9":
   "integrity" "sha512-hCv9AqTQ8ycjpSd3upOJd7vFwW1JaoYQ7tpham03GJ1ca8/65rqn0RpaWpItOAd6ylW9wAw6luXYPJIyPFVOww=="
   "resolved" "https://registry.npmjs.org/anser/-/anser-1.4.10.tgz"
@@ -2057,8 +2069,7 @@
     "object.assign" "^4.1.0"
 
 "babel-plugin-import-glob-meta@github:crowdbotics/babel-plugin-import-glob-meta":
-  "integrity" "sha512-cdMXe55VK6t4DP8B4zL2mOC75kREVyhGhBmuAfsYLHCnlBUBKzI7NKsDf8DJfqV9i01EUt7hrG4XAC/XcXFpRQ=="
-  "resolved" "https://codeload.github.com/crowdbotics/babel-plugin-import-glob-meta/tar.gz/fdffe71d6c97b2c1fc7cdffbaf15dbe1d023dfa5"
+  "resolved" "git+ssh://git@github.com/crowdbotics/babel-plugin-import-glob-meta.git#fdffe71d6c97b2c1fc7cdffbaf15dbe1d023dfa5"
   "version" "1.0.0"
   dependencies:
     "glob" "^7.1.7"
@@ -6378,6 +6389,13 @@
   "resolved" "https://registry.npmjs.org/rsvp/-/rsvp-4.8.5.tgz"
   "version" "4.8.5"
 
+"rxjs@^6.4.0", "rxjs@^6.5.3":
+  "integrity" "sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ=="
+  "resolved" "https://registry.npmjs.org/rxjs/-/rxjs-6.6.7.tgz"
+  "version" "6.6.7"
+  dependencies:
+    "tslib" "^1.9.0"
+
 "safe-buffer@~5.1.0", "safe-buffer@~5.1.1", "safe-buffer@5.1.2":
   "integrity" "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g=="
   "resolved" "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
@@ -7116,6 +7134,11 @@
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
   "version" "1.14.1"
 
+"tslib@^1.9.0":
+  "integrity" "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
+  "resolved" "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
+  "version" "1.14.1"
+
 "tslib@^2.0.1":
   "integrity" "sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.3.1.tgz"
@@ -7628,3 +7651,8 @@
     "string-width" "^4.2.0"
     "y18n" "^5.0.5"
     "yargs-parser" "^20.2.2"
+
+"zone.js@^0.9.1", "zone.js@~0.9.1":
+  "integrity" "sha512-GkPiJL8jifSrKReKaTZ5jkhrMEgXbXYC+IPo1iquBjayRa0q86w3Dipjn8b415jpitMExe9lV8iTsv8tk3DGag=="
+  "resolved" "https://registry.npmjs.org/zone.js/-/zone.js-0.9.1.tgz"
+  "version" "0.9.1"
