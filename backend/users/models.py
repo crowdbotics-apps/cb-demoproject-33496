@@ -23,7 +23,7 @@ class User(AbstractUser):
         blank=True,
         max_length=255,
     )
-    testField2 = models.TextField(
+    testField3 = models.TextField(
         null=True,
         blank=True,
     )
